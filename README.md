@@ -38,5 +38,3 @@ curl -i -X PATCH "http://localhost:18081/documents/doc-1/review" \
   -H "X-Hospital-Id: hospital-1" \
   -d '{"status":"APPROVED","reviewNote":"Looks valid."}'
 ```
-
-If you want, next we can add one small “nice” improvement for learning: a `/health` endpoint and a tiny request logger middleware (still readable).
