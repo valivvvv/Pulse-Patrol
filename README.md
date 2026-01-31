@@ -3,7 +3,6 @@
 ## Run it locally
 
 ```bash
-go mod init pulse-patrol-document-service
 go run .
 ```
 
